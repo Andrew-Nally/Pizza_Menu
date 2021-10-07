@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin:1%;
+}
+body {
+    background-image:url("pepperoni-banner.jpg");
+    background-color: antiquewhite;
+    background-size: 100% 55%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(29, 109, 49);
+    margin-top:3%;
+    
+
+}
+
+h1 {
+    text-align: center;
+    background:rgba(245, 245, 220, 0.651);
+    padding: 30px;
+    border: 2px double #591C1C;
+    color:maroon;
+    width:300px;
+    margin: 0 auto;
+    font-size: 3vw;
+    margin-bottom:8%;
+  
+
+}
+span{
+    font-size: 2vw;
+    color:rgb(29, 109,49);
+}
+.header_line{
+    width:100%;
+    height:5px;
+    background-color:brown
+
+}
+.order-form{
+position:relative;
+left:10%;
+}
+.container {
+    text-shadow: 0;
+    float: left;
+    width: 25%;
+    clear: right;
+    background: rgba(221, 160, 27, 0.658);
+    margin-right: 8%;
+    margin-bottom:3%;
+    border-radius:15px;
+    justify-content:center;
+}
+   
+ .btn-container {
+     display:block;
+    padding-top: 20px;
+    position:relative;
+    left:7%;
+
+}
+
+button {
+    padding: 15px;
+    font-family: 'Rodeway';
+    font-size: 15px;
+    display: inline-block;
+    background:beige;
+    border:5px double maroon;
+    margin-left:1%;
+}
+    
+.order_menu {
+    border-radius: 10px;
+    display: inline-block;
+    background:beige;
+    border:5px double maroon;
+    display:hidden;
+    position:relative;
+    left:8%;
+    
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    background:beige;
+    border:5px double maroon;
+    width:auto;
+    text-align: center;
+    color: maroon;
+}
+    
+h3 {
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    color:silver;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 13px;
+    background:beige;
+    border:5px double maroon;
+    width: auto;
+    color: maroon;
+}
+#displayTxt {
+   
+    border:5px double maroon;
+}
+ 
+#runningTotal2 {
+   
+    border:5px double maroon;
+    margin-bottom: -80px;  
+    display: hidden;
+}
+#totalPrice {
+    font-size: 20px;
+    color:maroon;
+    padding: 15px 0;
+    margin: 20px;
+    border-radius:10px;
+    background:beige;
+    border:5px double maroon;
+    display: hidden;
+}
+p {
+    text-align: center; 
+}
+
+.icons{
+    position:relative;
+    margin-top:45%;
+    }
+.icon{
+    position: relative;
+    bottom:-90%;
+    height:40px;
+    width:50px;
+    margin-left:10%;
+    padding-left:1%;
+}
+.label{
+    font-size:1vw;
+}

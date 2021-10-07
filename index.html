@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <script src="Pizza_JavaScript/Pizza2.js" defer></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/647952274f.css">
+
+	    <link rel="stylesheet" type="text/css" href="Pizza_CSS/Pizza2.css">
+        <title>Papa Pepp's Pizzeria</title>
+    </head>
+    <body>
+            <div class="overlay"></div>
+            <div class="bg">
+                <h2 class="blink_me">(456) 555-7787</h2>
+
+                <h1 style="margin:0 0px 20px;">Papa <br>Pepp's<br> Pizzeria<br></h1>
+            
+                <input type="button" onclick="getReceipt()"id="btnOrder" value = "Place Order">            
+            
+            <div id="menuBG">
+                <form id="frmMenu">
+                    <div class="menu left">
+                    <h3>Size:</h3>
+                    
+                    <input type="radio" class="size" name="Size"
+                        value='Personal Pizza'> Personal Pizza<br>
+                    
+                    <input type="radio" class="size" name="Size"
+                        value='Small Pizza'> Small Pizza<br>
+                    
+                    <input type="radio" class="size" name="Size"
+                        value='Medium Pizza'> Medium Pizza<br>
+                   
+                    <input type="radio" class="size" name="Size"
+                        value='Large Pizza'> Large Pizza<br>
+                    
+                    <input type="radio" class="size" name="Size"
+                        value='Extra Large Pizza'> Extra Large Pizza<br>
+                </div>
+
+                <div class="menu right2">
+                    <h3>Veggies</h3>
+                    
+                    <input type="checkbox" class="toppings" name="Toppings"
+                        value="Mushrooms">Mushrooms<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings"
+                         value="Onions">Onions<br>
+                    
+                    <input type="checkbox" class="toppings" name="Toppings" 
+                        value="Green Peppers">Green Peppers<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings"
+                        value="Tomatoes">Tomatoes<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings" 
+                        value="Olived">Olives<br>
+                </div>
+
+                <div class="menu right">
+                <h3>Sauce</h3>
+                    <input type="checkbox" class="toppings" name="Toppings"
+                        value="Fire Roasted Tomato Sauce"> Fire Roasted Tomato Sauce<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings"
+                        value="Classic Marinara Sauce">Classic Marinara Sauce<br>
+                
+                    <input type="checkbox" class="toppings" name="Toppings" 
+                        value="Barbeque">Barbeque<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings"
+                        value="Creamy Alfredo Sauce">Creamy Alfredo Sauce<br>
+
+                    <input type="checkbox" class="toppings" name="Toppings" 
+                        value="No Sauce">No Sauce<br>
+                </div>
+
+                <div class="menu left2">
+                    <h3>Meats:</h3>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Pepperoni">Pepperoni<br>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Sausage">Sausage<br>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Bacon">Bacon<br>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Chicken">Chicken<br>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Ground Beef">Ground Beef<br>
+                   
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Ham">Ham<br>
+                    
+                    <input type="checkbox" class="toppings" name="toppings"
+                        value="Salami">Salami<br>
+                </div>
+                
+                <div id="cart">
+                    <div id="showText"></div>
+                    <div id="totalPrice"></div>
+                    <div id="cc-logo">
+                        <img src="./Pizza_CSS/visa-mastercard-discover-png-visa-mastercard-american-express-discover-11562884670gyxaij59my-removebg-preview.png" alt="cc-logos" style="height:120px; width:100px;"></div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            Papa Pep's Pizzeria &copy; DrTy Designs 2021
+        </footer>
+        </div>
+</body>
+</html>
